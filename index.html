@@ -1,548 +1,678 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
-    <link rel="Website icon" type="png" 
-    href="imgs/logo 4.png">
-    
-    <link rel="stylesheet" href="style.css">
+    <link rel="Website icon" type="png" href="imgs/logo 4.png" />
+
+    <link rel="stylesheet" href="style.css" />
     <!-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
 
     <title>WebWizDurrani</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- -----------------------------------Header--------------------------- -->
     <header class="header" id="header">
-        <div class="nav container">
-            <a href="#" class="nav__logos">
-                <span class="nav__logo-circle">Web</span>
-                <span class="nav__logo-name">WizDurrani.</span>
-            </a>
+      <div class="nav container">
+        <a href="#" class="nav__logos">
+          <span class="nav__logo-circle">Web</span>
+          <span class="nav__logo-name">WizDurrani.</span>
+        </a>
 
-            <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-                <h3 class="nav__name">Hamza</h3>
+          <h3 class="nav__name">Hamza</h3>
 
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contact Me</a>
-                    </li>
-                </ul>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
 
-                <!-- close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-
-            <div class="nav__buttons">
-                <!-- Theme button -->
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                <!-- Toggle button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-3-fill"></i>
-                </div>
-            </div>
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
         </div>
-    </header>
 
+        <div class="nav__buttons">
+          <!-- Theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-3-fill"></i>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <!-- ---------------------------------------------MAIN--------------------------------------------- -->
     <main class="main">
-        <!-- -------------------Home----------------- -->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <h1 class="home__name">
-                    Durrani
-                </h1>
+      <!-- -------------------Home----------------- -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Durrani</h1>
 
-                <div class="home__perfil">
-                    <div class="home__image">
-                        <img src="imgs/1.jpg" class="home__img">
-                        <div class="home__shadow"></div>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img src="imgs/1.jpg" class="home__img" />
+              <div class="home__shadow"></div>
 
-                        <img src="imgs/curved-arrow.png" class="home__arrow">
-                        <img src="imgs/random-lines.png" class="home__line">
+              <img src="imgs/curved-arrow.png" class="home__arrow" />
+              <img src="imgs/random-lines.png" class="home__line" />
 
-                        <div class="geometric-box"></div>
-                    </div>
-
-                    <div class="home__social">
-                        <a href="https://www.fiverr.com/durrani_webdev?up" target="_blank" class="home__social-link">
-                            <iconify-icon icon="jam:fiverr" width="20" height="20"></iconify-icon>
-                        </a>
-                        <a href="https://www.upwork.com/freelancers/~01359edd701f1b29c6?view" target="_blank" class="home__social-link">
-                            <iconify-icon icon="bxl:upwork"></iconify-icon>
-                        </a>
-                        <a href="https://discord.com/users/746644867182231612" target="_blank" class="home__social-link">
-                            <iconify-icon icon="prime:discord"></iconify-icon>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="home__info">
-                    <p class="home__description">
-                        <b>Frontend developer</b>, with expertise in web development
-                        and design, I offer the best and top-notch projects resulting in 
-                        quality work.
-                    </p>
-
-                    <a href="#about" class="home__scroll">
-                        <div class="home__scroll-box">
-                            <i class="ri-arrow-down-s-line"></i>
-                        </div>
-
-                        <span class="home__scroll-text">Scroll Down</span>
-                    </a>
-                </div>
+              <div class="geometric-box"></div>
             </div>
-        </section>
 
-
-        <!-- ------------------About---------------- -->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <h2 class="section__title-1">
-                   <span>About Me.</span>
-                </h2>
-
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="imgs/about.jpg" class="about__img">
-
-                        <div class="about__shadow"></div>
-
-                        <div class="geometric-box"></div>
-                        <img src="imgs/random-lines.png" class="about__line">
-                        <div class="about__box"></div>
-                    </div>
-                </div>
-
-                <div class="about__info">
-                    <p class="about__description">
-                        Passionate about creating <b>Web pages</b> with 
-                        <b>UI/UX interfaces</b> and <b>Designing/Marketing</b>, 
-                        I have more than 3 years
-                        of experience and most of my clients are satisfied 
-                        by the results of my services. 
-                    </p>
-
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>My skills Are:</b> HTML, CSS, JavaScript,
-                             Bootstrap, Tailwind, video/picture Editing,
-                            WordPress.  
-                        </li>
-                    </ul>
-
-                    <div class="about__buttons">
-                        <a href="#contact" class="button">
-                            <i class="ri-send-plane-line"></i> Contact Me
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/hamza-shakeel-6264b3295/" target="_blank" class="button__ghost">
-                            <i class="ri-linkedin-box-fill"></i>
-                        </a>
-                    </div>
-                </div>
+            <div class="home__social">
+              <a
+                href="https://www.fiverr.com/durrani_webdev?up"
+                target="_blank"
+                class="home__social-link"
+              >
+                <iconify-icon
+                  icon="jam:fiverr"
+                  width="20"
+                  height="20"
+                ></iconify-icon>
+              </a>
+              <a
+                href="https://www.upwork.com/freelancers/~01359edd701f1b29c6?view"
+                target="_blank"
+                class="home__social-link"
+              >
+                <iconify-icon icon="bxl:upwork"></iconify-icon>
+              </a>
+              <a
+                href="https://discord.com/users/746644867182231612"
+                target="_blank"
+                class="home__social-link"
+              >
+                <iconify-icon icon="prime:discord"></iconify-icon>
+              </a>
             </div>
-        </section>
+          </div>
 
-        <!-- ------------------Services---------------- -->
-        <section class="services section" id="services">
+          <div class="home__info">
+            <p class="home__description">
+              <b>Frontend developer</b>, with expertise in web development and
+              design, I offer the best and top-notch projects resulting in
+              quality work.
+            </p>
+
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------About---------------- -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me.</span>
+          </h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="imgs/about.jpg" class="about__img" />
+
+              <div class="about__shadow"></div>
+
+              <div class="geometric-box"></div>
+              <img src="imgs/random-lines.png" class="about__line" />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              Passionate about creating <b>Web pages</b> with
+              <b>UI/UX interfaces</b> and <b>Designing/Marketing</b>, I have
+              more than 3 years of experience and most of my clients are
+              satisfied by the results of my services.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My skills Are:</b> HTML, CSS, JavaScript, Bootstrap,
+                Tailwind, video/picture Editing, WordPress.
+              </li>
+            </ul>
+
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Contact Me
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/hamza-shakeel-6264b3295/"
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------Services---------------- -->
+      <section class="services section" id="services">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
+
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+
+              <h2 class="services__title">Web Design</h2>
+
+              <p class="services__description">
+                Beautiful and elegent designs with interfaces that are
+                intuitive, efficient and plesent to use for the users.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+
+              <h2 class="services__title">Development</h2>
+
+              <p class="services__description">
+                Custom web development tailored to your specifications, designed
+                to provide a flawless user experience.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-pages-line"></i>
+              </div>
+
+              <h2 class="services__title">WordPress</h2>
+
+              <p class="services__description">
+                Unlock the power of WordPress by having your websites build in
+                responsive design, user friendly and robust E-commerce. And
+                watch your online presence flourish.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ------------------Projects---------------- -->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-2">
+          <span>Projects.</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <!-- Resturant website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="imgs/Document - Google Chrome 1_13_2024 2_42_29 PM.png"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hamzashakeel7.github.io/resturant-website-2/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Development</h3>
+              <h2 class="projects__title">Resturant website</h2>
+
+              <p class="projects__description">
+                A website made for a client related to resturant. Made with HTML
+                CSS and JavaScript. Fully responsive with minimalistic
+                animations and designs, showing the design at the clients
+                request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- Travel agency website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="imgs/Desktop Screenshot 2024.03.03 - 16.38.33.65.png"
+                class="projects__img"
+              />
+
+              <a
+                href="https://www.haditravels.com/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Travel Website</h2>
+
+              <p class="projects__description">
+                A website made for a client about his travel agency business.
+                Made with HTML CSS and JavaScript. Fully responsive with
+                minimalistic animations and designs, showing the design at the
+                clients request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- real-estate website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="imgs/Desktop Screenshot 2024.01.24 - 20.44.00.04.png"
+                class="projects__img"
+              />
+
+              <a
+                href="https://hamzashakeel7.github.io/real-estate-website/#"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Real-estate Website</h2>
+
+              <p class="projects__description">
+                A website made for a client For his real-estate business. Made
+                with HTML CSS and JavaScript. Fully responsive with minimalistic
+                animations and designs, showing the design at the clients
+                request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- Gym website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/gym.png" class="projects__img" />
+
+              <a
+                href="https://hamzashakeel7.github.io/GymWebsiteTitan/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Gym Website</h2>
+
+              <p class="projects__description">
+                A website made for a client about gym. Made with HTML CSS and
+                JavaScript. Fully responsive with minimalistic animations and
+                designs, showing the design at the clients request.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- Bubble game -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/game.png" class="projects__img" />
+
+              <a
+                href="https://hamzashakeel7.github.io/Bubble-game/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Development</h3>
+              <h2 class="projects__title">Bubble Game</h2>
+
+              <p class="projects__description">
+                JavaScript game build with using the utter logic of JavaScript.
+                60 seconds of bubble hit challenge.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- two good co Website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/twogoodco.jpg" class="projects__img" />
+
+              <a
+                href="https://hamzashakeel7.github.io/twogoodco/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Two Good Co</h2>
+
+              <p class="projects__description">
+                Clone of a renoun website. Made with html css and vanila
+                javaScript. Fully responsive on all devices. Full of Gsap
+                animations.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <!-- Fries Website -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/fries .png" class="projects__img" />
+
+              <a
+                href="https://hamzashakeel7.github.io/Fries-website/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Website</h3>
+              <h2 class="projects__title">Fries Website</h2>
+
+              <p class="projects__description">
+                Fries website with just HTML and CSS. Simple animations and
+                simple website to cater the needs of clients.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ------------------------Contact---------------- -->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-                <span>Services.</span>
+              <span>Contact Me.</span>
             </h2>
 
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
+            <p class="contact__description-1">
+              I will read and answer all your emails. Send me a message and I'll
+              get back to you.
+            </p>
+            <p class="contact__description-2">
+              Kindly enter your <b>Name</b> and <b>Email Address</b>, And you
+              will recieve my response shortly.
+            </p>
+            <div class="geometric-box"></div>
+          </div>
 
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-layout-4-line"></i>
-                        </div>
-                        
-                        <h2 class="services__title">Web Design</h2>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
 
-                        <p class="services__description">
-                            Beautiful and elegent designs with interfaces that are 
-                            intuitive, efficient and plesent to use for the users. 
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-                    
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-code-box-line"></i>
-                        </div>
-                        
-                        <h2 class="services__title">Development</h2>
-
-                        <p class="services__description">
-                            Custom web development tailored to your specifications,
-                            designed to provide a flawless user experience.
-                        </p>
-                    </div>
-                </article>
-
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-pages-line"></i>
-                        </div>
-                        
-                        <h2 class="services__title">WordPress</h2>
-
-                        <p class="services__description">
-                            Unlock the power of WordPress by having your websites build 
-                            in responsive design, user friendly and robust E-commerce.
-                            And watch your online presence flourish.  
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-
-        <!-- ------------------Projects---------------- -->
-        <section class="projects section" id="projects">
-            <h2 class="section__title-2">
-                <span>Projects.</span>
-            </h2>
-
-            <!-- Gym website -->
-            <div class="projects__container container grid">
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/gym.png" class="projects__img">
-
-                        <a href="https://hamzashakeel7.github.io/GymWebsiteTitan/" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Gym Website</h2>
-
-                        <p class="projects__description">
-                            A website made for a client about gym. Made with HTML CSS 
-                            and JavaScript. Fully responsive with minimalistic animations
-                            and designs, showing the design at the clients request.  
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Bubble game -->
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/game.png" class="projects__img">
-
-                        <a href="https://hamzashakeel7.github.io/Bubble-game/" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Development</h3>
-                        <h2 class="projects__title">Bubble Game</h2>
-
-                        <p class="projects__description">
-                            JavaScript game build with using the utter logic of 
-                            JavaScript. 60 seconds of bubble hit challenge. 
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                 <!-- two good co Website -->
-                  <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/twogoodco.jpg" class="projects__img">
-
-                        <a href="https://hamzashakeel7.github.io/twogoodco/" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Two Good Co</h2>
-
-                        <p class="projects__description">
-                            Clone of a renoun website. Made with html css and vanila javaScript.
-                            Fully responsive on all devices. Full of Gsap animations.                             
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-
-                <!-- Fries Website -->
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/fries .png" class="projects__img">
-
-                        <a href="https://hamzashakeel7.github.io/Fries-website/" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Fries Website</h2>
-
-                        <p class="projects__description">
-                           Fries website with just HTML and CSS. Simple animations 
-                           and simple website to cater the needs of clients.                             
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Picture designing -->
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/editing.jpg" class="projects__img">
-
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Design</h3>
-                        <h2 class="projects__title">Picture designing</h2>
-
-                        <p class="projects__description">
-                            Website logo, picture designing with canva and photoshop.
-                            Pictures with fine tune colors, remove imperfections and 
-                            applying creative effects.  
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-
-                <!-- Duo website -->
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="imgs/duo.png" class="projects__img">
-
-                        <a href="https://www.fiverr.com/s/kRb6Ay" target="_blank" class="projects__button button">
-                            <i class="ri-arrow-right-up-fill"></i>
-                        </a>
-                    </div>
-
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Website</h3>
-                        <h2 class="projects__title">Duo Website</h2>
-
-                        <p class="projects__description">
-                            Clone of a renoun website. Maximum use of JavaScript with
-                            background color changing, hover effects and cursor design. 
-                        </p>
-                    </div>
-
-                    <div class="projects__buttons">
-                        <a href="https://github.com/hamzashakeel7" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i> View
-                        </a>
-                        <a href="https://dribbble.com/hamza_shakeel7" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i> View
-                        </a>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-
-        <!-- ------------------------Contact---------------- -->
-        <section class="contact section" id="contact">
-            <div class="contact__container grid">
-                <div class="contact__data">
-                    <h2 class="section__title-2">
-                        <span>Contact Me.</span>
-                    </h2>
-
-                    <p class="contact__description-1">
-                        I will read and answer all your emails. 
-                        Send me a message and I'll get back to you. 
-                    </p>
-                    <p class="contact__description-2">  
-                        Kindly enter your <b>Name</b> and <b>Email Address</b>,
-                        And you will recieve my response shortly. 
-                    </p>
-                    <div class="geometric-box"></div>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
                 </div>
 
-                <div class="contact__mail">
-                    <h2 class="contact__title">
-                        Send Me A Message
-                    </h2>
-
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__group">
-                            <div class="contact__box">
-                                <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                                <label for="name" class="contact__label">First Name</label>
-                            </div>
-
-                            <div class="contact__box">
-                                <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                                <label for="email" class="contact__label">Email Address</label>
-                            </div>
-                        </div>
-
-                        <div class="contact__box">
-                            <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="subject">
-                            <label for="subject" class="contact__label">Subject</label>
-                        </div>
-
-                        <div class="contact__box contact__area">
-                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                            <label for="message" class="contact__label">Message</label>
-                        </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button type="submit" class="contact__button button">
-                            <i class="ri-send-plane-line"></i> Send Message
-                        </button>
-                    </form>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
                 </div>
+              </div>
 
-                <div class="contact__social">
-                    <img src="imgs/curved-arrow.png" class="contact__social-arrow">
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
 
-                    <div class="contact__social-data">
-                        <div>
-                            <p class="contact__social-description-1">
-                                Does not send emails
-                            </p>
-                            <p class="contact__social-description-2">
-                                Message me on my social accounts.
-                            </p>
-                        </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
 
-                        <div class="contact__social-links">
-                            <a href="https://wa.me/03353036639" target="_blank" class="contact__social-link">
-                                <i class="ri-whatsapp-line"></i>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=100051645245975" target="_blank" class="contact__social-link">
-                                <i class="ri-facebook-fill"></i>
-                            </a>
-                            <a href="https://www.instagram.com/hamza_shakeel7/" target="_blank" class="contact__social-link">
-                                <i class="ri-instagram-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+          <div class="contact__social">
+            <img src="imgs/curved-arrow.png" class="contact__social-arrow" />
+
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Does not send emails
+                </p>
+                <p class="contact__social-description-2">
+                  Message me on my social accounts.
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a
+                  href="https://wa.me/03353036639"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100051645245975"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-fill"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/hamza_shakeel7/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- --------------------------------------Footer------------------------------ -->
     <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-            </ul>
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
 
-            <span class="footer__copy">
-                &#169; All Rights Reserved By 
-                <a href="">WebWiz Durrani.</a>
-            </span>
-        </div>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="">WebWiz Durrani.</a>
+        </span>
+      </div>
     </footer>
-
 
     <!-- Scroll up -->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
 
-
-
-
-<!-- scroll reveal -->
-<script src="scrollReveal.js"></script>
-<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-<script src="main.js"></script>
-</body>
+    <!-- scroll reveal -->
+    <script src="scrollReveal.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -34,10 +34,10 @@
               <a href="#home" class="nav__link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="#about" class="nav__link">About Me</a>
+              <a href="#projects" class="nav__link">Projects</a>
             </li>
             <li class="nav__item">
-              <a href="#projects" class="nav__link">Projects</a>
+              <a href="#about" class="nav__link">About Me</a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link nav__link-button"
@@ -69,12 +69,16 @@
       <!-- -------------------Home----------------- -->
       <section class="home section" id="home">
         <div class="home__container container grid">
-          <h1 class="home__name">Durrani</h1>
+          <h1 class="home__name">Hamza</h1>
 
           <div class="home__perfil">
             <div class="home__image">
-              <img src="imgs/1.jpg" class="home__img" />
-              <div class="home__shadow"></div>
+              <video
+                class="hero-video"
+                controls
+                src="imgs/Main gmail video.mp4"
+              ></video>
+              <!-- <div class="home__shadow"></div> -->
 
               <img src="imgs/curved-arrow.png" class="home__arrow" />
               <img src="imgs/random-lines.png" class="home__line" />
@@ -84,15 +88,18 @@
 
             <div class="home__social">
               <a
-                href="https://www.fiverr.com/durrani_webdev?up"
+                href="https://www.instagram.com/webwi_zdurrani/"
                 target="_blank"
                 class="home__social-link"
               >
-                <iconify-icon
-                  icon="jam:fiverr"
-                  width="20"
-                  height="20"
-                ></iconify-icon>
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/hamza-shakeel-6264b3295/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-fill"></i>
               </a>
               <a
                 href="https://www.upwork.com/freelancers/~01359edd701f1b29c6?view"
@@ -101,24 +108,16 @@
               >
                 <iconify-icon icon="bxl:upwork"></iconify-icon>
               </a>
-              <a
-                href="https://discord.com/users/746644867182231612"
-                target="_blank"
-                class="home__social-link"
-              >
-                <iconify-icon icon="prime:discord"></iconify-icon>
-              </a>
             </div>
           </div>
 
           <div class="home__info">
             <p class="home__description">
-              <b>Frontend developer</b>, with expertise in web development and
-              design, I offer the best and top-notch projects resulting in
-              quality work.
+              <b>Fullstack developer</b>, with expertise in web development.
+              Projects 👇
             </p>
 
-            <a href="#about" class="home__scroll">
+            <a href="#projects" class="home__scroll">
               <div class="home__scroll-box">
                 <i class="ri-arrow-down-s-line"></i>
               </div>
@@ -129,59 +128,8 @@
         </div>
       </section>
 
-      <!-- ------------------About---------------- -->
-      <section class="about section" id="about">
-        <div class="about__container container grid">
-          <h2 class="section__title-1">
-            <span>About Me.</span>
-          </h2>
-
-          <div class="about__perfil">
-            <div class="about__image">
-              <img src="imgs/about.jpg" class="about__img" />
-
-              <div class="about__shadow"></div>
-
-              <div class="geometric-box"></div>
-              <img src="imgs/random-lines.png" class="about__line" />
-              <div class="about__box"></div>
-            </div>
-          </div>
-
-          <div class="about__info">
-            <p class="about__description">
-              Passionate about creating <b>Web pages</b> with
-              <b>UI/UX interfaces</b> and <b>Designing/Marketing</b>, I have
-              more than 3 years of experience and most of my clients are
-              satisfied by the results of my services.
-            </p>
-
-            <ul class="about__list">
-              <li class="about__item">
-                <b>My skills Are:</b> HTML, CSS, JavaScript, Bootstrap,
-                Tailwind, video/picture Editing, WordPress.
-              </li>
-            </ul>
-
-            <div class="about__buttons">
-              <a href="#contact" class="button">
-                <i class="ri-send-plane-line"></i> Contact Me
-              </a>
-
-              <a
-                href="https://www.linkedin.com/in/hamza-shakeel-6264b3295/"
-                target="_blank"
-                class="button__ghost"
-              >
-                <i class="ri-linkedin-box-fill"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!-- ------------------Services---------------- -->
-      <section class="services section" id="services">
+      <!-- <section class="services section" id="services">
         <h2 class="section__title-2">
           <span>Services.</span>
         </h2>
@@ -242,7 +190,7 @@
             </div>
           </article>
         </div>
-      </section>
+      </section> -->
 
       <!-- ------------------Projects---------------- -->
       <section class="projects section" id="projects">
@@ -251,6 +199,73 @@
         </h2>
 
         <div class="projects__container container grid">
+          <!-- burgerb -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/burgerb.png" class="projects__img" />
+
+              <a
+                href="http://www.burgerb.pk"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Frontend</h3>
+              <h2 class="projects__title">Resturant website</h2>
+
+              <p class="projects__description">
+                Revamped the entire website with a new look and feel, ensuring
+                full responsiveness and custom-designed pages. Utilized HTML and
+                CSS for design and ES6 Vanilla JavaScript for functionality.
+                Employed media queries for responsiveness across various
+                devices, adding minimalistic details with parallax effects and
+                footer animations. Custom domain and hosted on GitHub.
+              </p>
+            </div>
+          </article>
+
+          <!-- Ecommerce -->
+          <article class="projects__card">
+            <div class="projects__image">
+              <img src="imgs/sanity.png" class="projects__img" />
+
+              <a
+                href="https://sanity-ecommerce-seven-delta.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-fill"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Fullstack</h3>
+              <h2 class="projects__title">Ecommerce Store</h2>
+
+              <p class="projects__description">
+                Developed a dynamic eCommerce website using Next.js and Sanity
+                CMS, implementing responsive design, product categorization, and
+                a streamlined checkout process. Integrated a custom backend for
+                content management, enhancing site performance and user
+                experience.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/hamzashakeel7"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-line"></i> View
+              </a>
+            </div>
+          </article>
+
           <!-- Resturant website -->
           <article class="projects__card">
             <div class="projects__image">
@@ -260,7 +275,7 @@
               />
 
               <a
-                href="https://hamzashakeel7.github.io/resturant-website-2/"
+                href="https://www.cafe12oclock.com"
                 target="_blank"
                 class="projects__button button"
               >
@@ -269,7 +284,7 @@
             </div>
 
             <div class="projects__content">
-              <h3 class="projects__subtitle">Development</h3>
+              <h3 class="projects__subtitle">Frontend</h3>
               <h2 class="projects__title">Resturant website</h2>
 
               <p class="projects__description">
@@ -309,7 +324,7 @@
             </div>
 
             <div class="projects__content">
-              <h3 class="projects__subtitle">Website</h3>
+              <h3 class="projects__subtitle">Fullstack</h3>
               <h2 class="projects__title">Travel Website</h2>
 
               <p class="projects__description">
@@ -334,13 +349,10 @@
           <!-- real-estate website -->
           <article class="projects__card">
             <div class="projects__image">
-              <img
-                src="imgs/Desktop Screenshot 2024.01.24 - 20.44.00.04.png"
-                class="projects__img"
-              />
+              <img src="imgs/chaudhrygroup.png" class="projects__img" />
 
               <a
-                href="https://hamzashakeel7.github.io/real-estate-website/#"
+                href="https://chaudrygroup.github.io/"
                 target="_blank"
                 class="projects__button button"
               >
@@ -349,7 +361,7 @@
             </div>
 
             <div class="projects__content">
-              <h3 class="projects__subtitle">Website</h3>
+              <h3 class="projects__subtitle">Fullstack</h3>
               <h2 class="projects__title">Real-estate Website</h2>
 
               <p class="projects__description">
@@ -359,159 +371,57 @@
                 request.
               </p>
             </div>
-
-            <div class="projects__buttons">
-              <a
-                href="https://github.com/hamzashakeel7"
-                target="_blank"
-                class="projects__link"
-              >
-                <i class="ri-github-line"></i> View
-              </a>
-            </div>
           </article>
+        </div>
+      </section>
 
-          <!-- Gym website -->
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="imgs/gym.png" class="projects__img" />
+      <!-- ------------------About---------------- -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>Who Am I ?</span>
+          </h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img src="imgs/about.jpg" class="about__img" />
+
+              <div class="about__shadow"></div>
+
+              <div class="geometric-box"></div>
+              <img src="imgs/random-lines.png" class="about__line" />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              Passionate about creating <b>Web pages</b> with
+              <b>UI/UX interfaces</b> and <b>development</b>, I have more than 2
+              years of experience and most of my clients are satisfied.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>My skills Are:</b> HTML, CSS, JavaScript, Tailwind,
+                WordPress, Prisma, React, Nextjs, Mongodb...
+              </li>
+            </ul>
+
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Contact Me
+              </a>
 
               <a
-                href="https://hamzashakeel7.github.io/GymWebsiteTitan/"
+                href="https://www.linkedin.com/in/hamza-shakeel-6264b3295/"
                 target="_blank"
-                class="projects__button button"
+                class="button__ghost"
               >
-                <i class="ri-arrow-right-up-fill"></i>
+                <i class="ri-linkedin-box-fill"></i>
               </a>
             </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Website</h3>
-              <h2 class="projects__title">Gym Website</h2>
-
-              <p class="projects__description">
-                A website made for a client about gym. Made with HTML CSS and
-                JavaScript. Fully responsive with minimalistic animations and
-                designs, showing the design at the clients request.
-              </p>
-            </div>
-
-            <div class="projects__buttons">
-              <a
-                href="https://github.com/hamzashakeel7"
-                target="_blank"
-                class="projects__link"
-              >
-                <i class="ri-github-line"></i> View
-              </a>
-            </div>
-          </article>
-
-          <!-- Bubble game -->
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="imgs/game.png" class="projects__img" />
-
-              <a
-                href="https://hamzashakeel7.github.io/Bubble-game/"
-                target="_blank"
-                class="projects__button button"
-              >
-                <i class="ri-arrow-right-up-fill"></i>
-              </a>
-            </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Development</h3>
-              <h2 class="projects__title">Bubble Game</h2>
-
-              <p class="projects__description">
-                JavaScript game build with using the utter logic of JavaScript.
-                60 seconds of bubble hit challenge.
-              </p>
-            </div>
-
-            <div class="projects__buttons">
-              <a
-                href="https://github.com/hamzashakeel7"
-                target="_blank"
-                class="projects__link"
-              >
-                <i class="ri-github-line"></i> View
-              </a>
-            </div>
-          </article>
-
-          <!-- two good co Website -->
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="imgs/twogoodco.jpg" class="projects__img" />
-
-              <a
-                href="https://hamzashakeel7.github.io/twogoodco/"
-                target="_blank"
-                class="projects__button button"
-              >
-                <i class="ri-arrow-right-up-fill"></i>
-              </a>
-            </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Website</h3>
-              <h2 class="projects__title">Two Good Co</h2>
-
-              <p class="projects__description">
-                Clone of a renoun website. Made with html css and vanila
-                javaScript. Fully responsive on all devices. Full of Gsap
-                animations.
-              </p>
-            </div>
-
-            <div class="projects__buttons">
-              <a
-                href="https://github.com/hamzashakeel7"
-                target="_blank"
-                class="projects__link"
-              >
-                <i class="ri-github-line"></i> View
-              </a>
-            </div>
-          </article>
-
-          <!-- Fries Website -->
-          <article class="projects__card">
-            <div class="projects__image">
-              <img src="imgs/fries .png" class="projects__img" />
-
-              <a
-                href="https://hamzashakeel7.github.io/Fries-website/"
-                target="_blank"
-                class="projects__button button"
-              >
-                <i class="ri-arrow-right-up-fill"></i>
-              </a>
-            </div>
-
-            <div class="projects__content">
-              <h3 class="projects__subtitle">Website</h3>
-              <h2 class="projects__title">Fries Website</h2>
-
-              <p class="projects__description">
-                Fries website with just HTML and CSS. Simple animations and
-                simple website to cater the needs of clients.
-              </p>
-            </div>
-
-            <div class="projects__buttons">
-              <a
-                href="https://github.com/hamzashakeel7"
-                target="_blank"
-                class="projects__link"
-              >
-                <i class="ri-github-line"></i> View
-              </a>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
 
@@ -602,9 +512,6 @@
 
             <div class="contact__social-data">
               <div>
-                <p class="contact__social-description-1">
-                  Does not send emails
-                </p>
                 <p class="contact__social-description-2">
                   Message me on my social accounts.
                 </p>
@@ -626,7 +533,7 @@
                   <i class="ri-facebook-fill"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/hamza_shakeel7/"
+                  href="https://www.instagram.com/webwi_zdurrani/"
                   target="_blank"
                   class="contact__social-link"
                 >
@@ -662,12 +569,15 @@
     </footer>
 
     <!-- Scroll up -->
+    <a href="https://www.instagram.com/webwi_zdurrani/" class="insta">
+      <img src="imgs/instagram.png" alt="" />
+    </a>
     <a href="#" class="scrollup" id="scroll-up">
       <i class="ri-arrow-up-s-line"></i>
     </a>
 
     <!-- scroll reveal -->
-    <script src="scrollReveal.js"></script>
+    <!-- <script src="scrollReveal.js"></script> -->
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script
       type="text/javascript"

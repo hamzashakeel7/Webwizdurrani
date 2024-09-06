@@ -512,9 +512,9 @@
                     class="contact__input"
                     id="name"
                     required
-                    placeholder="First Name"
+                    placeholder="Your Name"
                   />
-                  <label for="name" class="contact__label">First Name</label>
+                  <label for="name" class="contact__label">Your Name</label>
                 </div>
 
                 <div class="contact__box">
@@ -524,11 +524,9 @@
                     class="contact__input"
                     id="email"
                     required
-                    placeholder="Email Address"
+                    placeholder="Your Email"
                   />
-                  <label for="email" class="contact__label"
-                    >Email Address</label
-                  >
+                  <label for="email" class="contact__label">Your Email</label>
                 </div>
               </div>
 
@@ -539,7 +537,7 @@
                   class="contact__input"
                   id="subject"
                   required
-                  placeholder="subject"
+                  placeholder="Subject"
                 />
                 <label for="subject" class="contact__label">Subject</label>
               </div>
@@ -550,9 +548,9 @@
                   id="message"
                   class="contact__input"
                   required
-                  placeholder="Message"
+                  placeholder="Your Message"
                 ></textarea>
-                <label for="message" class="contact__label">Message</label>
+                <label for="message" class="contact__label">Your Message</label>
               </div>
 
               <p class="contact__message" id="contact-message"></p>
@@ -637,8 +635,13 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script
       type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"
     ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("c0f3SIdHlKdp-KQU4");
+      })();
+    </script>
     <script src="main.js"></script>
   </body>
 </html>

@@ -39,39 +39,31 @@ window.addEventListener("scroll", ShadowHeader);
 
 // -----------Email js------------
 
-const contactForm = document.getElementById("contact-form");
-const contactMessage = document.getElementById("contact-message");
+const form = document.getElementById("contact-form");
 
-const sendEmail = (e) => {
-  e.preventDefault();
+form.addEventListener("submit", function (event) {
+  event.preventDefault();
 
-  emailjs
-    .sendForm(
-      "service_2m2xfjt",
-      "template_f8xo27e",
-      "#contact-form",
-      "BpGEaEw6ZxhCSQL8e"
-    )
-    .then(
-      () => {
-        // show sent message
-        contactMessage.textContent = "Message sent successfully ✔";
+  // Prepare the email data
+  const templateParams = {
+    user_name: document.getElementById("name").value,
+    user_email: document.getElementById("email").value,
+    user_subject: document.getElementById("subject").value,
+    user_message: document.getElementById("message").value,
+  };
 
-        setTimeout(() => {
-          contactMessage.textContent = "";
-        }, 5000);
-
-        // clearing input fields
-        contactForm.reset();
-      },
-      () => {
-        // error message
-        contactMessage.textContent = "Message not sent (service error) ❌";
-      }
-    );
-};
-
-contactForm.addEventListener("submit", sendEmail);
+  // Send the email using EmailJS
+  emailjs.send("service_ejs7p6r", "template_2bzx82s", templateParams).then(
+    function (response) {
+      document.getElementById("contact-message").textContent =
+        "Message sent successfully!";
+    },
+    function (error) {
+      document.getElementById("contact-message").textContent =
+        "Failed to send message. Please try again.";
+    }
+  );
+});
 
 // -----Show scroll up-------
 const scrollUp = () => {
@@ -129,6 +121,7 @@ themeButton.addEventListener("click", () => {
 });
 
 // --------------------------------draggable ball animatuion-----------------------
+
 const container = document.querySelector(".tech-container");
 const techIcons = document.querySelectorAll(".tech-icon");
 
@@ -153,18 +146,17 @@ function dragEnd(e) {
 
 // ----------------------------------------------Scroll reveal----------------------------------
 
-const sr = ScrollReveal({
-  origin: "top",
-  distance: "60px",
-  duration: 2500,
-  delay: 400,
-  // reset : true //animations repeat
-});
+// const sr = ScrollReveal({
+//   origin: "top",
+//   distance: "60px",
+//   duration: 2500,
+//   delay: 400,
+// });
 
-sr.reveal(`.home__perfil, .about__image, .contact__mail`, { origin: "right" });
-sr.reveal(
-  `.home__name, .home__info, .about__info, .about__container .section__title-1,
-            .contact__social, .contact__data`,
-  { origin: "left" }
-);
-sr.reveal(`.services__card, .projects__card`, { interval: 100 });
+// sr.reveal(`.home__perfil, .about__image, .contact__mail`, { origin: "right" });
+// sr.reveal(
+//   `.home__name, .home__info, .about__info, .about__container .section__title-1,
+//             .contact__social, .contact__data`,
+//   { origin: "left" }
+// );
+// sr.reveal(`.services__card, .projects__card`, { interval: 100 });
